@@ -1,1 +1,7 @@
-# Stochastic-Calculus-and-Derivative-Pricing
+# Financial Mathematics Project : Stochastic Calculus and Derivative Pricing
+
+This repository contains a collection of mathematical and R implementations completed in the context of a financial mathematics project focused on derivative pricing under the Black–Scholes framework. This work covers the core concepts of quantitative finance, including stochastic calculus, risk-neutral valuation, and simulation-based options pricing. All content has been translated into English and organized in LaTeX, while the computational questions are implemented in R.
+
+The project begins with modeling asset prices using stochastic differential equations, followed by applying Girsanov’s theorem to transition from the real-world valuation measure to the risk-neutral valuation measure. We then develop pricing functions for vanilla European options through the Black–Scholes formula and investigate implied volatility using numerical methods. The binomial model (Cox–Ross–Rubinstein and lognormal variants) is implemented to approximate Black–Scholes prices, alongside a convergence study that illustrates how binomial trees behave as the number of steps increases.
+
+The second half of the project focuses on Monte Carlo simulation under both the real-world and risk-neutral valuation measures, including variance reduction through antithetic variables and control variates. These methods are used to estimate the price of an arithmetic Asian option, compare estimator precision, and validate theoretical expectations for terminal stock prices and average price distributions.
